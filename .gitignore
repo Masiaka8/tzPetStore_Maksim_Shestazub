@@ -1,0 +1,35 @@
+#/modules/api_tests/.allure
+/modules/api_tests/allure-results
+/modules/api_tests/target
+.idea
+/modules/ui_tests/allure-results/
+/modules/ui_tests/.allure/
+
+# Java related
+target/**
+*.jar
+*.war
+*.ear
+*.class
+
+# eclipse specific
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
